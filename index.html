@@ -3,52 +3,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EcoMentors | Legacy by Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
             background-color: #0d1117;
             color: #e6edf3;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
         header {
             background-color: #161b22;
+            padding: 20px;
             text-align: center;
-            padding: 30px 10px 10px;
         }
         header img {
-            max-width: 180px;
+            width: 160px;
+            margin-bottom: 10px;
         }
-        header h1 {
+        h1 {
+            margin: 5px 0;
             color: #f0c040;
-            font-size: 28px;
-            margin: 15px 0 5px;
         }
-        header p {
-            font-size: 16px;
-            color: #8b949e;
+        nav {
+            background-color: #21262d;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #58a6ff;
+            text-decoration: none;
+            font-weight: bold;
         }
         main {
             padding: 20px;
         }
-        section {
-            margin-bottom: 40px;
-        }
         h2 {
             color: #58a6ff;
-            font-size: 22px;
-        }
-        footer {
-            background-color: #161b22;
-            color: #8b949e;
-            text-align: center;
-            padding: 20px;
-            font-size: 13px;
         }
         a {
             color: #58a6ff;
+        }
+        footer {
+            background-color: #161b22;
+            text-align: center;
+            padding: 15px;
+            font-size: 12px;
+            color: #8b949e;
         }
     </style>
 </head>
@@ -58,30 +62,39 @@
         <h1>EcoMentors</h1>
         <p>Excellence with Intention. Leadership by Design.</p>
     </header>
+    <nav>
+        <a href="#mission">Mission</a>
+        <a href="#blueprint">Blueprint</a>
+        <a href="#legacy">Legacy</a>
+        <a href="#contact">Contact</a>
+    </nav>
     <main>
-        <section>
+        <section id="mission">
             <h2>Mission</h2>
             <p>My mission is to pursue excellence with intention, discipline, and purpose—in action, in leadership, and in life.
-               I believe in showing up with integrity, growing through challenge, and leaving every space better than I found it.</p>
+            I believe in showing up with integrity, growing through challenge, and leaving every space better than I found it.</p>
         </section>
-        <section>
+
+        <section id="blueprint">
             <h2>Break 90 Blueprint</h2>
-            <p>Your journey to strategic, consistent golf begins here. Download training plans, track progress, and refine your approach.</p>
             <ul>
                 <li><a href="Break_90_Blueprint_Full_Strategy_Plan.pdf">Full Strategy Plan</a></li>
                 <li><a href="Bag_Tag_Club_Reference_Card.pdf">Bag Tag Reference</a></li>
                 <li><a href="Club_Summary_With_Offline_Distance.pdf">Club Summary</a></li>
             </ul>
         </section>
-        <section>
+
+        <section id="legacy">
             <h2>Legacy Lessons</h2>
-            <p>Weekly reflections on leadership, mentorship, and the pursuit of mastery.</p>
+            <p>Mentorship reflections and leadership lessons are coming soon.</p>
         </section>
-        <section>
+
+        <section id="contact">
             <h2>Contact</h2>
-            <p>Email: <a href="mailto:mentor@ecomentors.com">mentor@ecomentors.com</a></p>
+            <p>Reach me at: <a href="mailto:mentor@ecomentors.com">mentor@ecomentors.com</a></p>
         </section>
     </main>
+
     <footer>
         &copy; 2025 EcoMentors. Built with purpose and integrity.
     </footer>
